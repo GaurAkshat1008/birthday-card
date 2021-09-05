@@ -1,0 +1,32 @@
+.cards__cardContainer{
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    height: 85vh;
+}
+.card{
+    width: 650px;
+    height: 65vh;
+    max-width: 85vw;
+    padding: 30px;
+    margin: 5vh 0 0 0;
+    position: relative;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5%;
+    cursor: grab;
+}
+.swipe{
+    position: absolute;
+}
+.card > h3{
+    font-family: 'Style Script', cursive;
+    font-size: 3rem;
+    color: #330314;
+    bottom: 0;
+    margin: 10px;
+    position: absolute;
+}
